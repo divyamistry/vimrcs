@@ -1,0 +1,48 @@
+" show 5 lines below the cursor when going up or down using j/k
+set so=5
+
+" Show status line / ruler
+set ruler
+
+" Make basckspace behave as expected
+set nocompatible
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+" Highlight search results
+set hlsearch
+
+" magic regex search
+set magic
+
+" show matching brackets
+set showmatch
+
+" stop sounds form error
+set noerrorbells
+set novisualbell
+
+"""""" Colors and Fonts
+" Syntax highlight
+syntax enable
+
+" set as utf8
+set encoding=utf8
+
+""""" Tabs and Spaces
+" Use spaces instead of tabs
+set expandtab
+
+" Smart tabs
+set smarttab
+
+" 1tab is 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+" auto indent, smart indent, and wrap lines
+set ai
+set si
+set wrap
+
+
