@@ -4,6 +4,9 @@ set so=5
 " Show status line / ruler
 set ruler
 
+" show line numbers
+set number
+
 " Make basckspace behave as expected
 set nocompatible
 set backspace=eol,start,indent
